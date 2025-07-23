@@ -16,4 +16,3 @@ Login e transferência bancária
     Click Button    name=transfer
     Wait Until Element Is Visible    id=MenuHyperLink2    10s
     Click Element    id=MenuHyperLink2
-    
