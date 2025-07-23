@@ -1,0 +1,25 @@
+# Robot Framework result files
+log.html
+output.xml
+report.html
+results/
+*.log
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.env
+.env
+
+# WebDriver
+chromedriver.exe
+
+# VSCode
+.vscode/
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
