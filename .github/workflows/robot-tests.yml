@@ -40,7 +40,7 @@ jobs:
           robot todo_manager/tests/ || true
           robot testfire_bank/tests/ || true
       - name: Upload Robot Framework results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@4
         with:
           name: robot-results
           path: |
